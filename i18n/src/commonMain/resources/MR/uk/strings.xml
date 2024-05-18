@@ -367,7 +367,7 @@
     <string name="restore_in_progress">Відновлення вже відбувається</string>
     <string name="creating_backup_error">Помилка резервування</string>
     <string name="backup_in_progress">Резервне копіювання вже виконується</string>
-    <string name="restore_duration">%02d хв, %02d сек</string>
+    <string name="restore_duration" formatted="false">%02d хв, %02d сек</string>
     <string name="backup_restore_missing_sources">Відсутні джерела:</string>
     <string name="invalid_backup_file_missing_manga">Бекап не містить жодних записів бібліотеки.</string>
     <string name="invalid_backup_file">Невірний файл резервної копії:</string>

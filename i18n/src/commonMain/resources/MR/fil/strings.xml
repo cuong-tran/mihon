@@ -400,7 +400,7 @@
     <string name="creating_backup">Bina-backup</string>
     <string name="backup_choice">Anong iba-backup mo?</string>
     <string name="backup_in_progress">Bina-backup na</string>
-    <string name="restore_duration">%02d (na) min, %02d (na) seg</string>
+    <string name="restore_duration" formatted="false">%02d (na) min, %02d (na) seg</string>
     <string name="no_pinned_sources">Wala kang naka-pin na source</string>
     <string name="channel_complete">Tapos na</string>
     <string name="channel_errors">Mga error</string>

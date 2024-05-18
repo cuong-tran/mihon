@@ -359,7 +359,7 @@
     <string name="restore_in_progress">Восстановление уже выполняется</string>
     <string name="creating_backup_error">Не удалось создать резервную копию</string>
     <string name="backup_in_progress">Резервная копия уже выполняется</string>
-    <string name="restore_duration">%02d мин, %02d сек</string>
+    <string name="restore_duration" formatted="false">%02d мин, %02d сек</string>
     <string name="viewer">Режим чтения</string>
     <string name="pref_category_for_this_series">Для этой серии</string>
     <string name="gray_background">Серый</string>

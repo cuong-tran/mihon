@@ -383,7 +383,7 @@
     <string name="pref_read_with_tapping_inverted">反轉輕觸區域</string>
     <string name="vertical_plus_viewer">捲動式 (頁間留空)</string>
     <string name="tapping_inverted_none">無</string>
-    <string name="restore_duration">%02d 分 %02d 秒</string>
+    <string name="restore_duration" formatted="false">%02d 分 %02d 秒</string>
     <string name="recent_manga_time">第 %1$s 章 - %2$s</string>
     <string name="notification_chapters_single">第 %1$s 章</string>
     <string name="notification_chapters_multiple">第 %1$s 章</string>

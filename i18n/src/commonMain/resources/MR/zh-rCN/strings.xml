@@ -359,7 +359,7 @@
     <string name="last_used_source">最近使用</string>
     <string name="downloaded_only_summary">筛选书架里的全部作品</string>
     <string name="check_for_updates">检查更新</string>
-    <string name="restore_duration">%02d 分 %02d 秒</string>
+    <string name="restore_duration" formatted="false">%02d 分 %02d 秒</string>
     <string name="gray_background">灰色</string>
     <string name="pref_category_for_this_series">本作品</string>
     <string name="viewer">阅读模式</string>

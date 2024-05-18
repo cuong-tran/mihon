@@ -358,7 +358,7 @@
     <string name="check_for_updates">Güncellemeleri denetle</string>
     <string name="last_used_source">Son kullanılan</string>
     <string name="local_source_help_guide">Yerel kaynak kılavuzu</string>
-    <string name="restore_duration">%02d dk, %02d sn</string>
+    <string name="restore_duration" formatted="false">%02d dk, %02d sn</string>
     <string name="downloaded_only_summary">Kitaplığınızdaki tüm girdileri süzer</string>
     <string name="gray_background">Gri</string>
     <string name="viewer">Okuma kipi</string>

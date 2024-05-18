@@ -356,7 +356,7 @@
     <string name="restore_in_progress">La restauración ya está en curso</string>
     <string name="creating_backup_error">No se han podido respaldar los datos</string>
     <string name="backup_in_progress">La copia de seguridad ya está en curso</string>
-    <string name="restore_duration">%02d min, %02d seg</string>
+    <string name="restore_duration" formatted="false">%02d min, %02d seg</string>
     <string name="last_used_source">Usado recientemente</string>
     <string name="check_for_updates">Buscar actualizaciones</string>
     <string name="local_source_help_guide">Guía de fuente local</string>

@@ -142,7 +142,7 @@
     <string name="history">Povijest</string>
     <string name="track">Praćenje</string>
     <string name="manga">Unosi u biblioteci</string>
-    <string name="restore_duration">%02d min, %02d s</string>
+    <string name="restore_duration" formatted="false">%02d min, %02d s</string>
     <string name="restore_completed">Obnavljanje je završeno</string>
     <string name="backup_created">Sigurnosna kopija je stvorena</string>
     <string name="pref_backup_interval">Učestalost automatskog spremanja sigurnosnih kopija</string>

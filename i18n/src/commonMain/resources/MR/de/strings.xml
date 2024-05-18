@@ -358,7 +358,7 @@
     <string name="check_for_updates">Nach Aktualisierungen suchen</string>
     <string name="last_used_source">Zuletzt genutzt</string>
     <string name="local_source_help_guide">Anleitung für lokale Quellen</string>
-    <string name="restore_duration">%02d min, %02d s</string>
+    <string name="restore_duration" formatted="false">%02d min, %02d s</string>
     <string name="downloaded_only_summary">Filtert alle Einträge in deiner Bibliothek</string>
     <string name="gray_background">Grau</string>
     <string name="viewer">Lesemodus</string>

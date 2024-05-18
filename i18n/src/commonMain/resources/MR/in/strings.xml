@@ -357,7 +357,7 @@
     <string name="restoring_backup_canceled">Pemulihan dibatalkan</string>
     <string name="restore_in_progress">Pemulihan masih dalam proses</string>
     <string name="backup_in_progress">Pencadangan masih dalam proses</string>
-    <string name="restore_duration">%02d menit, %02d detik</string>
+    <string name="restore_duration" formatted="false">%02d menit, %02d detik</string>
     <string name="viewer">Mode membaca</string>
     <string name="gray_background">Abu-abu</string>
     <string name="pref_category_for_this_series">Untuk seri ini</string>
