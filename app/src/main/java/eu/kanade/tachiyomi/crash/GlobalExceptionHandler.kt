@@ -2,6 +2,7 @@ package eu.kanade.tachiyomi.crash
 
 import android.content.Context
 import android.content.Intent
+import com.google.firebase.crashlytics.FirebaseCrashlytics
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.descriptors.PrimitiveKind
 import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
@@ -33,6 +34,13 @@ class GlobalExceptionHandler private constructor(
         try {
             logcat(priority = LogPriority.ERROR, throwable = exception)
             launchActivity(applicationContext, activityToBeLaunched, exception)
+            if (exception is RuntimeException) {
+                // Fatal
+                defaultHandler.uncaughtException(thread, exception)
+            } else {
+                // Non-fatal
+                FirebaseCrashlytics.getInstance().recordException(exception)
+            }
         } catch (_: Exception) {
             defaultHandler.uncaughtException(thread, exception)
         }
